@@ -1,4 +1,3 @@
-
 body {
     margin: 0;
     background-color: #F8F8F8
@@ -23,4 +22,33 @@ header{
     height: auto;
     transform: scale(2);
     transform-origin: top right;
+}
+h2{
+    position: relative;
+    margin: 200px auto;
+    text-align: center; 
+}
+#locais{
+    margin-bottom: 10px;
+    text-align: center;
+}
+#Inst {
+    margin-top: 50px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+}
+
+details {
+    width: 100%;
+    text-align: center;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
